@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="box" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="728.0" prefWidth="261.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <children>
+      <Label prefHeight="59.0" prefWidth="252.0" text="Referencia Cruzada" />
+      <JFXButton fx:id="addText" onAction="#addTextClick" prefHeight="57.0" prefWidth="255.0" text="Adicionar texto" />
+      <JFXButton fx:id="list" onAction="#listClick" prefHeight="57.0" prefWidth="255.0" text="Lista de textos" />
+      <JFXButton fx:id="totalCount" prefHeight="57.0" prefWidth="255.0" text="Conta total" />
+      <JFXButton fx:id="totalWords" prefHeight="57.0" prefWidth="255.0" text="Exibir palavras total" />
+      <JFXButton fx:id="remove" prefHeight="57.0" prefWidth="255.0" text="Remove texto" />
+      <JFXButton fx:id="preTotal" prefHeight="57.0" prefWidth="255.0" text="Pré-Fixado total" />
+      <Label prefHeight="59.0" prefWidth="252.0" text="Texto" />
+      <JFXButton fx:id="existsWord" onAction="#existsWordAction" prefHeight="57.0" prefWidth="255.0" text="Existe palavra" />
+      <JFXButton prefHeight="57.0" prefWidth="255.0" text="Remove Palavra" />
+      <JFXButton fx:id="countWords" onAction="#countWordsClick" prefHeight="57.0" prefWidth="255.0" text="Conta palavra" />
+      <JFXButton fx:id="showWords" onAction="#listWords" prefHeight="57.0" prefWidth="255.0" text="Exibir palavras" />
+      <JFXButton fx:id="preOrder" prefHeight="57.0" prefWidth="255.0" text="Pré-Fixado " />
+   </children>
+</VBox>
